@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000'; 
+// const API_URL = 'http://localhost:5000'; 
+const API_URL = 'https://my-python-app-xjij.onrender.com'; 
 
 export const generateQuestions = async (data) => {
     return await axios.post(`${API_URL}/generate_questions`, data);
